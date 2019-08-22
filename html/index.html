@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Display Board</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/screen.min.css">
+</head>
+
+<body>
+  <aside class="controls">
+    <div class="board notice active">
+      <button class="toggle"></button>
+      <h4>Notice</h4>
+      <div class="options">
+        <input type="text" placeholder="your message" class="notice-input">
+        <select>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="red">Red</option>
+        </select>
+      </div>
+    </div>
+    <div class="board image">
+      <button class="toggle"></button>
+      <h4>Image</h4>
+      <div class="options">
+        <input type="text" placeholder="image-url">
+        <select>
+          <option value="cover">Cover</option>
+          <option value="contain">Contain</option>
+          <option value="400px">Tile</option>
+        </select>
+      </div>
+    </div>
+    <div class="board video">
+        <button class="toggle"></button>
+        <h4>Video</h4>
+        <div class="options">
+          <input type="text" placeholder="youtube ID">
+        </div>
+      </div>
+  </aside>
+  
+  <main class="result">
+  </main>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/js/bundle.min.js"></script>
+</html>
